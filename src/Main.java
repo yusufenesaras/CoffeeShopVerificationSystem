@@ -26,7 +26,7 @@ public class Main {
 		customerNero.setDateOfBirth(2000);
 		
 		BaseCustomerManager baseCustomerManager2 = new NeroCustomerManager(new MernisServiceAdapter());
-		baseCustomerManager2.Save(customerStarbucks);
+		baseCustomerManager2.Save(customerNero);
 		
 		
 	}
